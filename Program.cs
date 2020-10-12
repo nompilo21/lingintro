@@ -75,6 +75,12 @@ namespace LinqIntroduction
                 Console.WriteLine(employee.Name);
             }
 
+            public sheep(string sound)
+            {
+                sound="maaaah";
+                return sound;
+            }
+
         }
 
         private static bool NameStartsWithS(Employee employee)
